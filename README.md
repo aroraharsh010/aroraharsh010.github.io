@@ -1,4 +1,4 @@
 # aroraharsh010.github.io
-My Portfolio Website
+My personal Website
 <br>
 To visit click [here](http://aroraharsh010.github.io/)
