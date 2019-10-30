@@ -40,7 +40,7 @@
 						<header class="major">
 							<h2>Hi, I am Harsh Arora</h2>
 						</header>
-						<p>I am a second year student of B.tech Information Technology at Maharaja Agrasen Institute of Technology and a budding software developer.</p>
+						<p>I am a third year student of B.tech Information Technology at Maharaja Agrasen Institute of Technology and a budding software developer.</p>
 						<ul class="actions">
 							<li><a href="https://docs.google.com/document/d/1oT_-ZZU-O8NDcrC_uKVEJhkoMWhNambLMjepVbc58co/edit?usp=sharing" target="_blank" class="button icon fa-download">Download Resume</a></li>
 							<li><a href="#six" class="button">Get In Touch</a></li>
@@ -52,11 +52,26 @@
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
+								<article class="col-6 col-12-xsmall work-item">
+										<a href="images/fulls/10.png" class="image fit thumb"><img src="images/thumbs/10.png" alt="" /></a>
+										<h3><a href="https://github.com/aroraharsh010/Omnifood-Full-Stack">Omnifood</a></h3>
+										<p>A full stackfood website which runs on Node.JS, MongoDB and Express.JS</p>
+									</article> 
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/09.png" class="image fit thumb"><img src="images/thumbs/09.png" alt="" /></a>
 								<h3><a href="https://assistant.google.com/services/a/uid/0000001a269ceb8a?hl=en">Useless Facts Trivia</a></h3>
 								<p>A trivia game currently on the google assistant.</p>
 							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/01.png" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3><a href="https://github.com/IOSD/newsly/tree/master/Team_45">Newsly</a></h3>
+								<p>A news app that shows national,international news.Made using newsapi.org api.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+									<h3><a href="https://github.com/aroraharsh010/WeatherApp"> CMD Weather App	</a></h3>
+									<p>A command line app to get current weather and forecast of user location or user specified location. Made using Node.JS.</p>
+								</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
 								<h3><a href="https://github.com/aroraharsh010/Whatsapp-Automation-Bot">Whatsapp Automated Bot</a></h3>
@@ -78,12 +93,7 @@
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
 								<h3><a href="https://github.com/aroraharsh010/twitter-sentiment-analysis">Twitter Sentiment Analysis</a></h3>
 								<p>Fetches tweets of a keyword from twitter using tweepy and analyses their sentiment. Written in python.</p>	
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3 align="center" ><a href="https://github.com/IOSD/newsly/tree/master/Team_45">Newsly</a></h3>
-								<p>A news app that shows national,international news.Made using newsapi.org api.</p>
-							</article>  
+							</article> 
 							
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
@@ -116,15 +126,15 @@
 					<h2>Education</h2>
 					<div class="row">
 								<div class="col-6 col-12-xsmall">
-									<ul>
-										<li><strong>Bachelor of Technology (B.Tech), Information Technology (2017 - present)</strong>
+									<ul class="flex">
+										<li class="child"><strong>Bachelor of Technology (B.Tech), Information Technology (2017 - present)</strong>
 											<br>
 											Maharaja Agrasen Institute of Technology <br>CGPA : 7.50/10
 										</li><br>
-										<li><strong>XII (Senior Secondary), Science</strong><br>
-											Year of Completion: 2017 <br>CBSE Board (Mata Jai Kaur Public School) <br>Percentage : 94.00%
+										<li class="child"><strong>XII (Senior Secondary), Science</strong><br>
+											Year of Completion: 2017 <br>CBSE Board (Mata Jai Kaur Public School) <br>Percentage : 93.00%
 										</li><br>
-										<li><strong>X (Secondary)</strong>
+										<li class="child"><strong>X (Secondary)</strong>
 											<br>
 											Year of Completion: 2015
 											<br>CBSE Board (Mata Jai Kaur Public School)
@@ -133,38 +143,83 @@
 									</ul>
 								</div>
 				   </section>
-
+				   <style>
+					   .flex{
+						   	display: flex;
+							width: 55vw;
+							list-style-type: none;
+							
+					   }
+					   .child{
+						   padding: 4%;
+						   margin: 1%;
+						   /* padding-bottom:3% ; */
+						   border: 1px solid rgb(199, 196, 196) ;
+						   border-radius: 20px;
+						   width:34%;
+					   }
+					   @media screen and (max-width: 1280px) {
+						.flex{
+							/* flex-direction: column; */
+							width:220%;
+						   }
+					   }
+					   }
+					   @media screen and (max-width: 980px) {
+						.flex{
+							/* flex-direction: column; */
+							width:220%;
+						   }
+					   }
+					   @media screen and (max-width: 736px) {
+						.flex{
+							flex-direction: column;
+							width:250%;
+						   }
+					   }
+					   @media screen and (max-width: 480px) {
+						   .flex{
+							flex-direction: column;
+							width:250%;
+						   }
+						   
+					   }
+				   </style>
 				   <section id="four">
 					<h2>Experience and Trainings</h2>
 					<div class="row">
 								<div class="col-6 col-12-xsmall">
-									<ul>
-										<li><strong>Teaching Assistant Java</strong>
+									<ul class="flex">
+											<li class="child"><strong>Full Stack Web Development</strong>
+												<br>
+												Pepcoding.com(Delhi)<br>June 2019 - August 2019
+												<br> A complete web development full stack training in Node.JS, MongoDB, Express and React.
+											</li><br>
+										<li class="child"><strong>Teaching Assistant Java</strong>
 											<br>
-											Pepcoding.com(Delhi)<br>February 2019 - Present
+											Pepcoding.com(Delhi)<br>February 2019 - June 2019
 											<br>Responsibilities, in Java Algorithms and Data Structures batch, include managing more than 30 students and reporting directly to the Teacher.
 										</li><br>
-										<li><strong>Android Application Development Summer Project</strong>
+										<li class="child"><strong>Android Application Development Summer Project</strong>
 											<br>
 											IOSD(from home)<br>June 2018 - July 2018
 											<br>Development of android app "Newsly". Fetches national, international news using newsapi.org apis. 
 										</li><br>
-										<li><strong>Web Develoment</strong>
-											<br>
-											Udemy.com (Online)<br>Apr 2018 - June 2018
-											<br>A  complete  web  development  training  with  Node.JS,  MongoDB  and  angular framework.
-										</li><br>
-										<li><strong>Java</strong>
-											<br>
-											pepcoding.com (Delhi)<br>Dec 2017 - May 2018
-											<br>Data   Structures   and   algorithms   training   under  Mr. Sumeet   Malik,   founder  pepcoding.com.
-										</li><br>
-										<li><strong>Android Application Development</strong>
-											<br>
-											Udemy.com (Online)<br>Jun 2017 - Oct 2017
-											<br>Android app development training with Firebase, APIs and Android wear.
-										</li><br>
+
 									</ul>
+									<ul class="flex">
+											<li class="child"><strong>Java</strong>
+												<br>
+												pepcoding.com (Delhi)<br>Dec 2017 - May 2018
+												<br>Data   Structures   and   algorithms   training   under  Mr. Sumeet   Malik,   founder  pepcoding.com.
+											</li><br>
+											<li class="child"><strong>Android Application Development</strong>
+												<br>
+												Udemy.com (Online)<br>Jun 2017 - Oct 2017
+												<br>Android app development training with Firebase, APIs and Android wear.
+											</li><br>
+									</ul>
+								</div>
 								</div>
 				    </section>
 
@@ -250,39 +305,27 @@
 							<dd>6</dd>
 							<dt class="skill-8" title="Python - 80%">Python</dt>
 							<dd>8</dd>							
-							<dt class="skill-4" title="JSON - 40%">JSON</dt>
+							<dt class="skill-8" title="JSON - 80%">JSON</dt>
 							<dd>4</dd>
 							<dt class="skill-8" title="HTML5 - 80%">HTML5</dt>
 							<dd>8</dd>
-							<dt class="skill-7" title="XML - 70%">XML</dt>
-							<dd>7</dd>
 							<dt class="skill-8" title="Git - 80%">Git</dt>
 							<dd>8</dd>
 							<dt class="skill-9" title="Java - 90%">Java</dt>
 							<dd>9</dd>
-							<dt class="skill-7" title="Javascript - 70%">Javascript</dt>
+							<dt class="skill-9" title="Javascript - 90%">Javascript</dt>
 							<dd>7</dd>
 							<dt class="skill-5" title="C/C++ - 50%">C/C++</dt>
-							<dd>5</dd>
-							<dt class="skill-4" title="C# - 40%">C#</dt>
-							<dd>4</dd>
+							<dd>8</dd>
 							<dt class="skill-8" title="Android - 80%">Android</dt>
 							<dd>8</dd>
-							<dt class="skill-5" title="MEAN - 50%" >MEAN</dt>
-							<dd>5</dd>
+							<dt class="skill-8" title="MERN - 80%" >MERN</dt>
+							<dd>8</dd>
 							<dt class="skill-8" title="Firebase - 80%">Firebase</dt>
 							<dd>8</dd>
-							<dt class="skill-3" title="PHP - 30%">PHP</dt>
-							<dd>3</dd>
-							<dt class="skill-3" title="SQLite - 30%">SQLite</dt>
-							<dd>3</dd>
-							<dt class="skill-5" title="Photoshop - 50%">Photoshop</dt>
-							<dd>5</dd>
 							<dt class="skill-8" title="CSS - 80%">CSS</dt>
 							<dd>8</dd>
 							<dt class="skill-4" title="OpenCV - 40%">OpenCV</dt>
-							<dd>4</dd>
-							<dt class="skill-4" title="MySQL - 40%">MySQL</dt>
 							<dd>4</dd>
 						</dl>
 					</article>
